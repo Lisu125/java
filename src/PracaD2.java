@@ -7,9 +7,13 @@ public class PracaD2 {
 
         System.out.println("Ile masz lat?");
         int wiek = scanner.nextInt();
-        if (wiek < 18){
+        if (wiek < 18 && wiek >= 0){
             System.out.println("Nie możesz kupić alkocholu szczeniaku");
-        }else {
+        }else if (wiek < 0){
+            System.out.println("Kłamiesz szczeniaku");
+        }
+
+        else {
             System.out.println("Dziękuję za zakupy");
         }
     }

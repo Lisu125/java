@@ -1,0 +1,2 @@
+public class PracaD3 {
+}
