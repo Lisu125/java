@@ -8,15 +8,19 @@ public class PracaD1 {
         System.out.println("Podaj drugą liczbę: ");
         float secondNumber = scanner.nextFloat();
 
+
         float dodawanie = firstNumber + secondNumber;
         float odejmowanie = firstNumber - secondNumber;
         float mnożenie = firstNumber * secondNumber;
         float dzielenie = firstNumber / secondNumber;
+        float mod = firstNumber % secondNumber;
 
         System.out.println("Wynik dodawania liczby " + firstNumber + " oraz " + secondNumber + " to " + dodawanie);
         System.out.println("Wynik odejmowania liczby " + firstNumber + " oraz " + secondNumber + " to " + odejmowanie);
         System.out.println("Wynik mnożenia liczby " + firstNumber + " oraz " + secondNumber + " to " + mnożenie);
         System.out.println("Wynik dzielenia liczby " + firstNumber + " oraz " + secondNumber + " to " + dzielenie);
+        System.out.println("<Modulo: " + mod
+        );
 
     }
 }
